@@ -1,0 +1,28 @@
+.hover-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .veg-img,
+  .non-veg-img {
+    height: 300px; /* Adjust the height as needed */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .veg-img img,
+  .non-veg-img img {
+    transition: transform 0.3s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .veg-img:hover img,
+  .non-veg-img:hover img {
+    transform: scale(1.1);
+  }
+  
